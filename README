@@ -1,0 +1,27 @@
+Collatz conjecture
+
+Every positive integer > 1 in the form, 2^n * o + 1 for some o odd.
+One can then recursively decompose that odd, until o = 1.
+
+In this way, every odd can be uniquely represented as a sequence of
+natural numbers.
+
+For example:
+13 can be represented as the sequence [2, 1], since 2^2 * (2^1 + 1) + 1 = 13
+
+Assume then that there exists a cycle. There must then be the smallest odd in
+the cycle. Now using the previous notation, we can show that certain sequences
+will cause a contradiction that there is a smaller odd in the sequence.
+
+TODO:
+
+* Bring in my vimrc file
+* Add constructor to CollatzNode class
+* Build CollatzExprs
+* Make sure to be able to print CollatzExprs
+* Bring in priority queue for CollatzExprs
+* Add recursive expansion of CollatzExprs
+* Add unit tests
+* Output state
+* Read in state
+* Bring in BigInt
