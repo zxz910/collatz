@@ -15,7 +15,6 @@ will cause a contradiction that there is a smaller odd in the sequence.
 
 TODO:
 
-* Bring in my vimrc file
 * Add constructor to CollatzNode class
 * Build CollatzExprs
 * Make sure to be able to print CollatzExprs
