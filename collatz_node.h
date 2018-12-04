@@ -1,11 +1,14 @@
 #ifndef COLLATZ_NODE_H
 #define COLLATZ_NODE_H
-struct collatz_expr {
-  int coeff;
-  int constant;
-};
+class CollatzNode {
+ public:
+  CollatzNode(std::vector<int> odd_expos, CollatzExpr expr, int level);
+  string ToString();
 
-struct collatz_node {
-  
-};
+ private:
+  std::vector<int> odd_expos_;
+  CollatzExpr expr_;
+  int level_;
+}
+
 #endif /* COLLATZ_NODE_H */
